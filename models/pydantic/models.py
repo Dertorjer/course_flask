@@ -15,5 +15,7 @@ class AnimalResponse(BaseModel):
 
     id: int
     animal_type: str
+    animal_breed: str
     name: str
+    photo_url: str
     birth_date: date
